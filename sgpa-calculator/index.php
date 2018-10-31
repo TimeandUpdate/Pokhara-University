@@ -35,8 +35,9 @@
 					</div>
 				</form>
 			</div>
-			<br/><p>Semester End Grade Point Average is the SGPA. SGPA indicate the weightage of marks secured by a student.<br/><img alt="How to calculate SGPA Pokhara University" src = "../image/how-SGPA-and-CGPA-is-calculated.jpg"/><br/>In the Image above the honor point = credit * obtained grade.</p>
-		<p>Select the credit of the subject and the grade obtained in that subject. Do the same for all other subject in that semester. This SGPA calculator is based on credit system of Pokhara University, Nepal</p>
+			<br/>
+			<p>Semester End Grade Point Average is the SGPA. SGPA indicate the weightage of marks secured by a student.<br/><img alt="How to calculate SGPA Pokhara University" src = "../image/how-SGPA-and-CGPA-is-calculated.jpg"/><br/>In the Image above the honor point = credit * obtained grade.</p>
+			<p>Select the credit of the subject and the grade obtained in that subject. Do the same for all other subject in that semester. This SGPA calculator is based on credit system of Pokhara University, Nepal</p>
 		</div>
 	</div>
 </body>
@@ -109,7 +110,7 @@ $(document).ready(function(){
 			//n = num.toFixed(2);
 			///Display result
 			//var totalcredit = 0;
-	//var upperval = 0;
+			//var upperval = 0;
 			var result = upperval / totalcredit;
 			var sgpa = result.toFixed(2);
 			$('#sgpa').html('<div class="alert alert-success"><strong>SGPA= '+sgpa+'</strong></div>');
